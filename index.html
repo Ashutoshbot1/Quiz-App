@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    
+</head>
+<body>
+    
+    <div class="main">
+        <div class="box" id="box">
+            <h2 id="question">1. This is dummy question ?</h2>
+            <div class="row">
+                <input class="Options"  type="radio" name="Option" id="Option1" value="a">
+                <label for="Option1">a. Option 1</label>
+            </div>
+
+            <div class="row">
+                <input class="Options" type="radio" name="Option" id="Option2" value="b">
+                <label for="Option2">b. Option 2</label>
+            </div>
+
+            <div class="row">
+                <input class="Options" type="radio" name="Option" id="Option3" value="c">
+                <label for="Option3">c. Option 3</label>
+            </div>
+
+            <div class="row">
+                <input class="Options" type="radio" name="Option" id="Option4" value="c">
+                <label for="Option4">d. Option 4</label>
+            </div>
+
+            <button class="btn" id="submit-btn" onclick="submitQuiz()">Submit</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
